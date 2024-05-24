@@ -1,0 +1,54 @@
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-color: #4d00ff;
+    color: white;
+    margin-top: 50px;
+    text-align: center ;
+    padding: 100px 0;
+
+}
+
+#small-gritty {
+    height: 10px;
+    width: 10px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#Gritter {
+    color: #4d00ff;
+    font-size: 100px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.avatar {
+    background-image: url('../images/bear\ png.png');
+    background-size:cover ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+a.blue {
+    color: blue;
+
+}
